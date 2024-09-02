@@ -169,7 +169,7 @@ input[type='checkbox']:checked+span::before {
   background-color: #fff;
   border: 1px solid #000;
   align-self: center;
-  position: absolute;
+  position: fixed;
 }
 
 .button {
