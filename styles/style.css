@@ -46,7 +46,6 @@ ol {
   align-items: flex-end;
   justify-content: center;
   width: 1140px;
-  height: 100%;
 }
 
 .result {
@@ -231,9 +230,8 @@ ol {
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 70px;
   text-transform: uppercase;
-  padding-top: 10px;
 }
 
 .content__accent {
@@ -242,7 +240,7 @@ ol {
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 70px;
   text-transform: uppercase;
 }
 
@@ -250,10 +248,11 @@ ol {
   position: relative;
   height: 298px;
   overflow: hidden auto;
+  margin-top: 21px;
 }
 
 .content__list li:not(:last-child) {
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 
 .content__list-item {
@@ -269,7 +268,6 @@ ol {
   color: #fff;
   display: block;
   margin: 0 2px;
-  padding-top: 5px;
 }
 
 .content__card-link:hover {
@@ -307,7 +305,7 @@ ol {
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
-  margin-top: 2px;
+  margin-top: 6px;
   margin-left: 2px;
   overflow: hidden;
   white-space: nowrap;
@@ -320,7 +318,7 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 16px;
-  margin-top: 2px;
+  margin-top: 3px;
   margin-left: 2px;
 }
 
@@ -328,6 +326,7 @@ ol {
   width: 194px;
   height: 103px;
   object-fit: cover;
+  margin: 2px 0;
 }
 
 .more-button {
